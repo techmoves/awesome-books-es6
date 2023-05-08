@@ -70,7 +70,7 @@ itemThree.addEventListener('click', () => {
 
 const liveTimeElement = document.getElementById('live-time');
 // Function to update the live time
-function updateLiveTime() {
+ const updateLiveTime = () => {
   // Get the current time using Luxon
   const currentTime = DateTime.local();
 
