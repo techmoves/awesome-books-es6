@@ -121,7 +121,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-- Project is deployed using [GitHub Pages](https://github.com/techmoves/Awesome-books.git)
+- Project is deployed using [GitHub Pages](https://github.com/techmoves/Awesome-books-es6.git)
 
 
 <!-- AUTHORS -->
@@ -163,7 +163,7 @@ Contributions, issues, and feature requests are welcome!
 
 
 
-Feel free to check the [issues page](https://github.com/techmoves/Awesome-books.git)
+Feel free to check the [issues page](https://github.com/techmoves/Awesome-books-es6.git)
     
 <p align="right">(<a href="">back to top</a>)</p>
 
