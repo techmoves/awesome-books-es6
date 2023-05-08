@@ -37,10 +37,9 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
 });
 
 const now = DateTime.now();
+DateTime.now().toString();
 const formattedTime = now.toFormat('HH:mm:ss');
 document.getElementById('live-time').innerHTML = formattedTime;
-
-// -----spa-----
 
 const itemOne = document.getElementById('item1');
 const itemTwo = document.getElementById('item2');
@@ -68,9 +67,6 @@ itemThree.addEventListener('click', () => {
   bookSection.classList.add('hidden');
   addSection.classList.add('hidden');
 });
-
-// Call updateDateTime function every second to update the time
-// setInterval(updateDateTime, 1000);
 
 const liveTimeElement = document.getElementById('live-time');
 // Function to update the live time

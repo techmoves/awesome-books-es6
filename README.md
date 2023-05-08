@@ -83,7 +83,7 @@ Familiarity with Git and GitHub: If you are using Git and GitHub to manage your 
 - Create a new folder to store the files in.
 - Open a command-line interface (e.g. Terminal on Mac or Linux, Command Prompt on Windows).
 Navigate to the folder where you want to clone the repository using the cd command.
-Use the git clone command followed by the repository's URL to clone the repository. For example: git clone https://github.com/techmoves/Awesome-books.git
+Use the git clone command followed by the repository's URL to clone the repository. For example: git clone https://github.com/techmoves/Awesome-books-es6.git
 Press enter and wait for the repository to finish cloning.
 
 ### Install
@@ -92,7 +92,7 @@ Install this project with:
 
 - Open your command prompt or terminal and run.
 
-- git clone  [https://github.com/techmoves/Awesome-books.git]
+- git clone  [https://github.com/techmoves/Awesome-books-es6.git]
 
 - Clone the repository to your local machine using the git clone command as described in the previous answer.
 Navigate to the project folder using a command-line interface such as Terminal or Command Prompt.
@@ -117,6 +117,7 @@ To run tests, run the following command:
 - To run tests run :
 - npx hint .
 - npx stylelint "\*_/_.{css,scss}"
+- modules
 
 ### Deployment
 
@@ -132,12 +133,6 @@ To run tests, run the following command:
 - GitHub: [@techmoves](https://github.com/techmoves)
 - Twitter: @Dopezonke_
 - LinkedIn: https://www.linkedin.com/in/phelelani-ndlovu-883916160/
-
-👤 **Sonika Kumar**
-- GitHub: [sonikak004](https://github.com/sonikak004)
-- Twitter: [@sonikak004](https://twitter.com/sonikak004)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sonikak004/)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -170,7 +165,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/techmoves/Awesome-books.git)
     
-<p align="right">(<a href="https://techmoves.github.io/hiphopfest-capstone/">back to top</a>)</p>
+<p align="right">(<a href="">back to top</a>)</p>
 
 <!-- SUPPORT --> 
 
