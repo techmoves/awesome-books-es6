@@ -1,4 +1,4 @@
-import Store from "./script.js";
+import Store from './script.js';
 
 export default class UI {
   static displayBooks() {
@@ -7,8 +7,8 @@ export default class UI {
   }
 
   static addBookToList(book) {
-    const list = document.querySelector("#book-list");
-    const row = document.createElement("tr");
+    const list = document.querySelector('#book-list');
+    const row = document.createElement('tr');
     row.innerHTML = `
       <td>${book.title}</td>
       <td>${book.author}</td>
@@ -18,24 +18,24 @@ export default class UI {
   }
 
   static deleteBook(el) {
-    if (el.classList.contains("delete")) {
+    if (el.classList.contains('delete')) {
       el.parentElement.parentElement.remove();
     }
   }
 
   static showAlert(message, className) {
-    const div = document.createElement("div");
+    const div = document.createElement('div');
     div.className = `alert alert-${className}`;
     div.appendChild(document.createTextNode(message));
-    const container = document.querySelector(".container");
-    const form = document.querySelector("#book-form");
+    const container = document.querySelector('.container');
+    const form = document.querySelector('#book-form');
     container.insertBefore(div, form);
     // Vanish in 2.5 seconds
-    setTimeout(() => document.querySelector(".alert").remove(), 2500);
+    setTimeout(() => document.querySelector('.alert').remove(), 2500);
   }
 
   static clearFields() {
-    document.querySelector("#title").value = "";
-    document.querySelector("#author").value = "";
+    document.querySelector('#title').value = '';
+    document.querySelector('#author').value = '';
   }
 }
