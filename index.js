@@ -86,8 +86,8 @@ setInterval(updateLiveTime, 1000);
 
 const dateAndTime = () => {
   const now = DateTime.local();
-  const formattedDateTime = now.toFormat("yyyy-MM-dd HH:mm:ss");
-  document.getElementById("live-time").innerHTML = `${formattedDateTime}`;
+  const formattedDateTime = now.toFormat('yyyy-MM-dd HH:mm:ss');
+  document.getElementById('live-time').innerHTML = `${formattedDateTime}`;
 };
 dateAndTime();
 setInterval(dateAndTime, 1000);
