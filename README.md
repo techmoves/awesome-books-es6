@@ -182,7 +182,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
+i would like to thank the Microverse team for this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
