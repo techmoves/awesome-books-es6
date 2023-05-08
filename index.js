@@ -70,15 +70,14 @@ itemThree.addEventListener('click', () => {
 
 const liveTimeElement = document.getElementById('live-time');
 // Function to update the live time
- const updateLiveTime = () => {
+const updateLiveTime = () => {
   // Get the current time using Luxon
   const currentTime = DateTime.local();
-
   // Format the current time as desired (e.g., 'HH:mm:ss')
   const formattedTime = currentTime.toFormat('HH:mm:ss');
   // Update the live-time element with the formatted time
   liveTimeElement.textContent = formattedTime;
-}
+};
 // Call the updateLiveTime function initially to set the initial time
 updateLiveTime();
 // Update the live time every second
